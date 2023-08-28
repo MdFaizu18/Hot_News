@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\moham\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-router-dom
+
+PATH: 
+  C:\Users\moham\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\moham\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Java\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\mongosh-1.10.3-win32-x64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\moham\AppData\Local\Microsoft\WindowsApps;D:\Learn co\Microsoft VS Code\bin;C:\Users\moham\AppData\Roaming\npm;C:\Users\moham\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 2606:4700:83b3:80e2:e43b:27c:6810:23:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)
+
+npm manifest: 
+  {
+    "name": "newsapp",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
